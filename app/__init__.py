@@ -42,9 +42,5 @@ def create_app(config_name):
 
     from .fastlog import fastlog as fastlog_blueprint
     app.register_blueprint(fastlog_blueprint, url_prefix='/fastlog')
-    
     return app
-
-   
-
    
