@@ -1,4 +1,4 @@
-#!C:\Users\ashnet\Desktop\fastMonkey\flask\Scripts\python.exe
+#!C:\ProjectGit\flask-Sqlalchemy-FastMonkey\flask\Scripts\python.exe
 # EASY-INSTALL-ENTRY-SCRIPT: 'setuptools==0.6c11','console_scripts','easy_install'
 __requires__ = 'setuptools==0.6c11'
 import sys

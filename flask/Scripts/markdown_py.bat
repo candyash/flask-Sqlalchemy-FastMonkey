@@ -1,1 +1,1 @@
-@"C:\Users\ashnet\Desktop\fastMonkey\flask\Scripts\python.exe" "C:\Users\ashnet\Desktop\fastMonkey\flask\Scripts\markdown_py" %*
+@"C:\ProjectGit\flask-Sqlalchemy-FastMonkey\flask\Scripts\python.exe" "C:\ProjectGit\flask-Sqlalchemy-FastMonkey\flask\Scripts\markdown_py" %*

@@ -1,31 +1,26 @@
 @echo off
-set VIRTUAL_ENV=C:\Users\ashnet\Desktop\fastMonkey\flask
-
-if not defined PROMPT (
-    set PROMPT=$P$G
-)
+set "VIRTUAL_ENV=C:\ProjectGit\flask-Sqlalchemy-FastMonkey\flask"
 
 if defined _OLD_VIRTUAL_PROMPT (
-    set PROMPT=%_OLD_VIRTUAL_PROMPT%
+    set "PROMPT=%_OLD_VIRTUAL_PROMPT%"
+) else (
+    if not defined PROMPT (
+        set "PROMPT=$P$G"
+    )
+	set "_OLD_VIRTUAL_PROMPT=%PROMPT%"	
 )
+set "PROMPT=(flask) %PROMPT%"
 
-if defined _OLD_VIRTUAL_PYTHONHOME (
-     set PYTHONHOME=%_OLD_VIRTUAL_PYTHONHOME%
+if not defined _OLD_VIRTUAL_PYTHONHOME (
+    set "_OLD_VIRTUAL_PYTHONHOME=%PYTHONHOME%"
 )
+set PYTHONHOME=
 
-set _OLD_VIRTUAL_PROMPT=%PROMPT%
-set PROMPT=(flask) %PROMPT%
-
-if defined PYTHONHOME (
-     set _OLD_VIRTUAL_PYTHONHOME=%PYTHONHOME%
-     set PYTHONHOME=
+if defined _OLD_VIRTUAL_PATH (
+    set "PATH=%_OLD_VIRTUAL_PATH%"
+) else (
+    set "_OLD_VIRTUAL_PATH=%PATH%"
 )
-
-if defined _OLD_VIRTUAL_PATH set PATH=%_OLD_VIRTUAL_PATH%; goto SKIPPATH
-
-set _OLD_VIRTUAL_PATH=%PATH%
-
-:SKIPPATH
-set PATH=%VIRTUAL_ENV%\Scripts;%PATH%
+set "PATH=%VIRTUAL_ENV%\Scripts;%PATH%"
 
 :END

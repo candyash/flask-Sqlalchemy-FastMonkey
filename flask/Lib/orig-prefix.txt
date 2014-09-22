@@ -1,1 +1,1 @@
-C:\Users\ashnet\Anaconda
+C:\Python27
