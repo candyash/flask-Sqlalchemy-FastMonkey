@@ -1,1 +1,0 @@
-@"C:\ProjectGit\flask-Sqlalchemy-FastMonkey\flask\Scripts\python.exe" "C:\ProjectGit\flask-Sqlalchemy-FastMonkey\flask\Scripts\markdown_py" %*
