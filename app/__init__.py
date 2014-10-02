@@ -6,6 +6,7 @@ from flask.ext.moment import Moment
 from flask.ext.pagedown import PageDown
 from flask.ext.mail import Mail
 from config import config
+import os
 
 bootstrap = Bootstrap()
 db = SQLAlchemy()
