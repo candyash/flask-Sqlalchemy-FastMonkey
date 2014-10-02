@@ -1,1 +1,1 @@
-web: gunicorn runp-heroku:appp
+web: gunicorn manage:app
